@@ -1,0 +1,12 @@
+.home__section {
+  /* display: flex;
+  flex-wrap: wrap;
+  padding: 30px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.home__section > * {
+  /* flex: 1 1 250px; */
+  /* flex: 0 0 50%; */
+}

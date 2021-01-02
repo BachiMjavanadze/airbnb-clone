@@ -1,0 +1,65 @@
+.banner {
+  background: url('https://www.thespruce.com/thmb/ZM7NrTic_7kJPMuOtCs2mIvEq8k=/2032x1143/smart/filters:no_upscale()/GettyImages-1187200939-74336d2a866d4c99853f700cb4ad7d5f.jpg');
+  height: 50vh;
+  position: relative;
+  margin-top: 20px;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-top: 20vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 18px; /* 40px */
+  width: 300px;
+}
+
+.banner__searchButton {
+  background-color: #fff !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff779f !important;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .banner__searchButton.airbnb {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner__searchButton.calendar {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .banner__info {
+    min-width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
